@@ -48,6 +48,7 @@ main {
     position: relative;
     top: 60px;
     height: calc(100% - 120px);
+    overflow: auto;
 }
 
 .container {
@@ -59,12 +60,13 @@ main {
     background-color: rgb(255, 191, 0);
     height: 50px;
     width: 50px;
-    border: solid 2px #000;
+    border: solid 1px #000;
     text-align: center;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     line-height: 50px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .block_7 {
@@ -89,5 +91,7 @@ footer {
 }
 
 .active {
-    background-color: rgb(160, 252, 216);
+    background-color: rgb(10, 160, 10);
+    color: #fff;
 }
+
